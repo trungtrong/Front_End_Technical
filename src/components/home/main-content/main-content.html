@@ -1,0 +1,14 @@
+<main>
+    <div class="content-container">
+        <HomeBannerImage/>
+        <ExperienceSection/>
+        <AnnouncementSection/>
+        <DestinationsSection/>
+
+        <hr>
+        <h3>Switch Button</h3>
+        <custom-switch-button :value="switchBtnValue"
+                                @on-value-changed="onSwitchValueChanged($event)">
+        </custom-switch-button>
+    </div>
+</main>

@@ -1,0 +1,91 @@
+<div class="container">
+    <div class="technical-padding">
+        <div class="technical-padding-container">
+            <div class="experience-container">
+                <div v-for="(item, index) in experienceList" :key="index"
+                class="experience-item">
+                    <div class="experience-image-container">
+                        <img :src="item.imageUrl" :alt="index" class="experience-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="_b1xn3a" style="background-color: rgb(0, 0, 0);">
+	<div class="_1sx1020z" style="background-color: transparent;">
+		<div class="_1tfttp">
+			<div class="_i24ijs">
+				<div class="_74ut3a">
+					<div class="_1rz216u" style="grid-template-columns: 100% 100% 100% 100% 100%;">
+						<div class="_ebnz0x" style="grid-area: 1 / 1 / auto / auto;">
+							<a target="_blank" href="/experiences/1844655" class="_1wlymrds">
+								<div class="_1trgpf1">
+									<div class="_1h6n1zu" style="display: inline-block; vertical-align: bottom; height: 100%; width: 100%; min-height: 1px;">
+										<picture>
+											<source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 2x" media="(max-width: 743px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=960 2x" media="(min-width: 743.1px) and (max-width: 1127px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1200 2x" media="(min-width: 1127.1px) and (max-width: 1439px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1680 2x" media="(min-width: 1439.1px)">
+                                            <img class="_6tbg2q" aria-hidden="true" alt="" decoding="async" src="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?aki_policy=large" style="object-fit: cover; vertical-align: bottom; border-radius: 16px;">
+                                        </picture>
+                                        <div class="_15p4g025" style="background-image: url(&quot;https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720&quot;); background-size: cover; border-radius: 16px;"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="_ebnz0x" style="grid-area: 1 / 1 / auto / auto;">
+							<a target="_blank" href="/experiences/1844655" class="_1wlymrds">
+								<div class="_1trgpf1">
+									<div class="_1h6n1zu" style="display: inline-block; vertical-align: bottom; height: 100%; width: 100%; min-height: 1px;">
+										<picture>
+											<source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 2x" media="(max-width: 743px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=960 2x" media="(min-width: 743.1px) and (max-width: 1127px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1200 2x" media="(min-width: 1127.1px) and (max-width: 1439px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1680 2x" media="(min-width: 1439.1px)">
+                                            <img class="_6tbg2q" aria-hidden="true" alt="" decoding="async" src="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?aki_policy=large" style="object-fit: cover; vertical-align: bottom; border-radius: 16px;">
+                                        </picture>
+                                        <div class="_15p4g025" style="background-image: url(&quot;https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720&quot;); background-size: cover; border-radius: 16px;"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="_ebnz0x" style="grid-area: 1 / 1 / auto / auto;">
+							<a target="_blank" href="/experiences/1844655" class="_1wlymrds">
+								<div class="_1trgpf1">
+									<div class="_1h6n1zu" style="display: inline-block; vertical-align: bottom; height: 100%; width: 100%; min-height: 1px;">
+										<picture>
+											<source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 2x" media="(max-width: 743px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=960 2x" media="(min-width: 743.1px) and (max-width: 1127px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1200 2x" media="(min-width: 1127.1px) and (max-width: 1439px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1680 2x" media="(min-width: 1439.1px)">
+                                            <img class="_6tbg2q" aria-hidden="true" alt="" decoding="async" src="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?aki_policy=large" style="object-fit: cover; vertical-align: bottom; border-radius: 16px;">
+                                        </picture>
+                                        <div class="_15p4g025" style="background-image: url(&quot;https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720&quot;); background-size: cover; border-radius: 16px;"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="_ebnz0x" style="grid-area: 1 / 1 / auto / auto;">
+							<a target="_blank" href="/experiences/1844655" class="_1wlymrds">
+								<div class="_1trgpf1">
+									<div class="_1h6n1zu" style="display: inline-block; vertical-align: bottom; height: 100%; width: 100%; min-height: 1px;">
+										<picture>
+											<source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 2x" media="(max-width: 743px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=960 2x" media="(min-width: 743.1px) and (max-width: 1127px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=480 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1200 2x" media="(min-width: 1127.1px) and (max-width: 1439px)">
+                                            <source srcset="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=1680 2x" media="(min-width: 1439.1px)">
+                                            <img class="_6tbg2q" aria-hidden="true" alt="" decoding="async" src="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?aki_policy=large" style="object-fit: cover; vertical-align: bottom; border-radius: 16px;">
+                                        </picture>
+                                        <div class="_15p4g025" style="background-image: url(&quot;https://a0.muscache.com/im/pictures/af8a88f4-d8c5-4cbc-b9bb-008e74b6d8eb.jpg?im_w=720&quot;); background-size: cover; border-radius: 16px;"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

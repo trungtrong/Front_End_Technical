@@ -1,0 +1,38 @@
+<div class="experience-item-container" ref="experienceItemReference">
+    <a class="_sqvp1j"
+        aria-label="Finding Confidence with Hugh Hutchison"
+        href="/experiences/1758862?currentTab=all_tab&amp;federatedSearchId=db6603c4-e5d2-4532-b2f6-9ff306eff418&amp;searchId=e4975d88-8bca-4530-870f-3b01cd07d54f&amp;sectionId=5dd4658f-e4e9-47eb-87e2-f523b0ecf69c&amp;source=p2"
+        target="_blank">
+    </a>
+    <div class="item-container">
+        <div class="technical-padding">
+            <div class="technical-padding-container">
+                <img class="_91slf2a" style="object-fit:cover" aria-hidden="true" alt=""
+                    decoding="async" loading="lazy"
+                    src="https://a0.muscache.com/im/pictures/61ad152a-07e3-4bf4-81c0-8ff2598ac966.jpg?aki_policy=poster"
+                    data-original-uri="https://a0.muscache.com/im/pictures/61ad152a-07e3-4bf4-81c0-8ff2598ac966.jpg?aki_policy=poster">
+            </div>
+
+            <div class="hover-effect-container" v-if="isActive">
+                <div class="hover-effect-content">
+                    <div v-for="(item, index) in experienceItemData.imageUrls" :key="index"
+                            :class="itemStatuses[index] ? 'experience-running-item-active' : 'experience-running-item'"
+                            style="display: inline-block; vertical-align: bottom; height: 100%; width: 100%; min-height: 1px;">
+                        <img class="_9ofhsl" :src="item" style="object-fit: cover; vertical-align: bottom;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="hover-effect-container" v-if="showVideo">
+                <div class="hover-effect-content">
+                    <video tabindex="-1" class="video-container" controlslist="nodownload" crossorigin="anonymous" autoplay="false" loop name="media" playinline preload="auto" style="object-fit: cover;">
+                            <source src="https://a0.muscache.com/v/fa/e7/fae7b20a-21ae-5044-ad1d-f3cd62d04311/fae7b20a21ae5044ad1df3cd62d04311_600k_1.mp4?imformat=h265&imwidth=400"
+                                type="video/mp4; codecs=hevc">
+                            <source src="https://a0.muscache.com/v/fa/e7/fae7b20a-21ae-5044-ad1d-f3cd62d04311/fae7b20a21ae5044ad1df3cd62d04311_600k_1.mp4?imwidth=400"
+                                type="video/mp4">
+                        </video>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>

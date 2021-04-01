@@ -1,0 +1,17 @@
+<!--
+    the border-bottom of list
+ -->
+<div class="destination">
+    <div class="destination-container">
+        <div class="destination-content">
+            <div v-for="(item, index) in destinations" :key="index" class="destination-item">
+                <div class="city-name-content">
+                    <a :href="item.link" class="city-link">
+                        <div class="city-name">{{item.cityName}}</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hide-end-border"></div>
+    </div>
+</div>

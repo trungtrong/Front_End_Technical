@@ -1,0 +1,59 @@
+
+.home-alert-container {
+    position: relative;
+}
+
+.alert-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #F7F7F7;
+    text-align: center;
+}
+
+.alert-link {
+    color: inherit;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+@media (min-width: 375px) {
+    .alert-content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width: 744px) {
+    .alert-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 950px) {
+    .alert-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1128px) {
+    .alert-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .alert-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
