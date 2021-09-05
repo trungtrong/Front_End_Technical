@@ -22,22 +22,25 @@
         <h4>3 - Based on different ratios -> different padding-top</h4>
         <div>
             <picture>
-                    <source srcset="https://a0.muscache.com/im/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg?im_w=1200 1x, https://a0.muscache.com/im/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg?im_w=1920 2x"
-                            media="(min-width: 1128px)">
-                    <source srcset="https://a0.muscache.com/im/pictures/4bdbc082-4aa4-4fa5-8200-c0931195b95d.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/4bdbc082-4aa4-4fa5-8200-c0931195b95d.jpg?im_w=1440 2x"
-                            media="(min-width: 744px)">
-                    <source srcset="https://a0.muscache.com/im/pictures/137fb7ba-01a4-47bc-b885-a854885e235b.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/137fb7ba-01a4-47bc-b885-a854885e235b.jpg?im_w=720 2x">
+                <source srcset="https://a0.muscache.com/im/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg?im_w=1200 1x, https://a0.muscache.com/im/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg?im_w=1920 2x"
+                        media="(min-width: 1128px)">
+                <source srcset="https://a0.muscache.com/im/pictures/4bdbc082-4aa4-4fa5-8200-c0931195b95d.jpg?im_w=720 1x, https://a0.muscache.com/im/pictures/4bdbc082-4aa4-4fa5-8200-c0931195b95d.jpg?im_w=1440 2x"
+                        media="(min-width: 744px)">
+                <source srcset="https://a0.muscache.com/im/pictures/137fb7ba-01a4-47bc-b885-a854885e235b.jpg?im_w=320 1x, https://a0.muscache.com/im/pictures/137fb7ba-01a4-47bc-b885-a854885e235b.jpg?im_w=720 2x">
 <!--                    fallback-->
-                    <img class="technical-padding-image-container" src="https://a0.muscache.com/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg" alt="">
+                <img class="technical-padding-image-container" src="https://a0.muscache.com/pictures/3da6b6d9-3351-4ddf-b88c-127f0fda7bdf.jpg" alt="">
             </picture>
         </div>
 
         <h3 class="pt-30-c">4 - Image Type-Switching method</h3>
-        <!-- <picture>
-            <source type="image/avif" srcset="avif-kitten.svg" />
-            <source type="image/webp" srcset="webp-kitten.webp" />
-            <img src="kitten.gif" alt="A cute kitten" />
-        </picture> -->
+            <picture>
+                <source type="image/webp"
+                    srcset="https://screenshots.imgix.net/recharts/recharts/responsive-container/1.6.2/5ced1a8e16ee3000144d630f/a649d91b-ef9c-4222-a7f2-78817cf9b924.png?w=300&amp;h=200&amp;fit=fillmax&amp;fm=webp">
+                <source type="image/png"
+                    srcset="https://screenshots.imgix.net/recharts/recharts/responsive-container/1.6.2/5ced1a8e16ee3000144d630f/a649d91b-ef9c-4222-a7f2-78817cf9b924.png?w=300&amp;h=200&amp;fit=fillmax&amp;fm=png">
+                <img class="_24VkZ"
+                    src="https://screenshots.imgix.net/recharts/recharts/responsive-container/1.6.2/5ced1a8e16ee3000144d630f/a649d91b-ef9c-4222-a7f2-78817cf9b924.png?w=300&amp;h=200&amp;fit=fillmax&amp;fm=png">
+            </picture>
 
 
         <h3 class="pt-30-c">5 - Padding-Top</h3>
@@ -49,7 +52,6 @@
                 />
             </div>
         </div>
-
     </div>
 </template>
 

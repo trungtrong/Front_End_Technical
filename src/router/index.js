@@ -28,6 +28,11 @@ const routes = [
                 component: () => import(/* webpackChunkName: "about" */ '../views/SearchAll.vue')
             },
             {
+                path: '/airbnb-clone-1',
+                name: 'AirbnbClone1',
+                component: () => import('@/components/home/main-content/main-content')
+            },
+            {
                 path: '/aspect-ratio',
                 name: 'AspectRatio',
                 component: () => import('@/components/basic/aspect-ratio.component')
@@ -41,6 +46,16 @@ const routes = [
                 path: '/image-responsive',
                 name: 'ImageResponsive',
                 component: () => import('@/components/basic/image-responsive.component')
+            },
+            {
+                path: '/preview-image',
+                name: 'PreviewImage',
+                component: () => import('@/components/basic/preview-image.component')
+            },
+            {
+                path: '/cards-responsive',
+                name: 'CardsResponsive',
+                component: () => import('@/components/basic/cards-responsive.component')
             }
         ]
     }

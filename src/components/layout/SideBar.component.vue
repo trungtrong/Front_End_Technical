@@ -20,6 +20,10 @@ export default {
         return {
             pages: [
                 {
+                    routerLink: '/airbnb-clone-1',
+                    text: 'Airbnb Clone 1'
+                },
+                {
                     routerLink: '/aspect-ratio',
                     text: 'Aspect Ratio'
                 },
@@ -29,7 +33,15 @@ export default {
                 },
                 {
                     routerLink: '/image-responsive',
-                    text: 'ImageResponsive'
+                    text: 'Image Responsive'
+                },
+                {
+                    routerLink: '/preview-image',
+                    text: 'Preview Image'
+                },
+                {
+                    routerLink: '/cards-responsive',
+                    text: 'Cards Responsive'
                 }
             ]
         }
