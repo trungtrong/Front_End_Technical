@@ -29,12 +29,13 @@ export default {
 }
 
 #appContent {
-    width: 100%;
-    padding: 20px 20px 20px 240px;
+    width: calc(100% - 240px);
+    padding: 20px;
     transition: left ease-in-out 250ms;
     text-align: left;
     overflow: auto;
     height: 100vh;
+    margin-left: 240px;
 }
 
 .content-wrapper {

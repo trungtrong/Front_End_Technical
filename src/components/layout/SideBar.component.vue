@@ -22,6 +22,14 @@ export default {
                 {
                     routerLink: '/aspect-ratio',
                     text: 'Aspect Ratio'
+                },
+                {
+                    routerLink: '/accordion',
+                    text: 'Accordion'
+                },
+                {
+                    routerLink: '/image-responsive',
+                    text: 'ImageResponsive'
                 }
             ]
         }

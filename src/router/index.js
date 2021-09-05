@@ -31,6 +31,16 @@ const routes = [
                 path: '/aspect-ratio',
                 name: 'AspectRatio',
                 component: () => import('@/components/basic/aspect-ratio.component')
+            },
+            {
+                path: '/accordion',
+                name: 'Accordion',
+                component: () => import('@/components/basic/accordion.component')
+            },
+            {
+                path: '/image-responsive',
+                name: 'ImageResponsive',
+                component: () => import('@/components/basic/image-responsive.component')
             }
         ]
     }

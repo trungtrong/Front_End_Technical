@@ -144,11 +144,18 @@ export default {
 
     .technical-padding {
         padding-top: 37.5%; // 15/4
+        //     padding-top: calc(25%*9/6);
         position: relative;
         //
         max-width: 25%;
         flex: 0 0 25%;
     }
+
+    /**
+      How to detect padding-top percentage for Background
+      image: 1200x453
+        => padding-top: 453/1200 = 43.58%
+     */
 
     .technical-padding-container {
         position: absolute;
@@ -159,8 +166,19 @@ export default {
     }
 
     .technical-padding-image-container {
+        // for image
         object-fit: cover;
         height: 100%;
+
+        // for background - layout/banner
+        //display: inline-block;
+        //vertical-align: bottom;
+        //min-height: 1px;
+        //background-position: 50% 50%;
+        //background-repeat: no-repeat;
+        //height: 100%;
+        //width: 100%;
+        //background-size: cover;
     }
 
     // Aspect-ratio
