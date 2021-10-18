@@ -10,6 +10,7 @@ import ExperienceSection from '@/components/home/experience-section/experience-s
 import AnnouncementSection from '@/components/home/announcement-section/announcement-section.vue';
 import DestinationsSection from '@/components/home/destinations-section/destinations-section.vue';
 import CustomSwitchButton from '@/components/shared/switch-button';
+import ExploreNearbySection from '@/components/home/explore-nearby/explore-nearby.vue';
 
 export default {
     name: 'HomeMainContent',
@@ -18,7 +19,8 @@ export default {
         ExperienceSection,
         AnnouncementSection,
         DestinationsSection,
-        CustomSwitchButton
+        CustomSwitchButton,
+        ExploreNearbySection
     },
     data() {
         return {

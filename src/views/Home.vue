@@ -38,8 +38,4 @@ export default {
     margin-left: 240px;
 }
 
-.content-wrapper {
-    padding-left: 20px;
-}
-
 </style>

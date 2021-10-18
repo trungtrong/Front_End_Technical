@@ -153,7 +153,7 @@ export default {
 
     .card-responsive__three__item {
         height: 200px;
-        width: 20%;
+        flex: 1 1 20%;
         border-radius: 6px;
         box-shadow: 1px 1px 6px 1px #a7a7a7;
     }
